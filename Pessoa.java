@@ -19,6 +19,15 @@ public class Pessoa {
         this.corCabelos = corCabelos;
         this.corPele = corPele;
     }
+
+    public Pessoa() {
+        
+    }
+
+    public Pessoa(String name) {
+        this.name = name;    
+    }
+    
     public String getName() {
         return name;
     }
